@@ -182,7 +182,7 @@ body {
     line-height: 1.14;}
 
 .contact-nav .link:hover,
-.contact-nav .link:focus {
+.contact-nav .link :focus {
     color: var(--accent-color);
 }
 
@@ -200,11 +200,6 @@ body {
     margin-right: 10px;
     align-self: center;
 }
-
-/* .contact-list-icon .icon-mail:hover,
-.contact-list-icon .icon-mail:focus {
-    color: var(--accent-color)
-} */
 
 .mail-ref {
     text-decoration: none;
@@ -228,9 +223,9 @@ body {
 }
 
 
-/* .contact-list-icon .link:hover {
+.contact-list-icon .link:hover {
     color: var(--accent-color);
-} */
+}
 
 
 
