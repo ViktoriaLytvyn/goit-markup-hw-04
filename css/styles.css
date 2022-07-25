@@ -206,6 +206,15 @@ body {
     color: var(--primary-text-color) ;
     }
 
+        .contact-list:hover .icon-mail {
+            color: var(--accent-color);
+            fill: var(--accent-color);
+    
+        }
+    
+        .contact-list:hover .icon-smartphone {
+            color: var(--accent-color);
+            fill: var(--accent-color)}
 
 .icon-smartphone {
     width: 10px;
