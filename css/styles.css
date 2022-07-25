@@ -169,10 +169,10 @@ body {
 
 .contact-list {
     font-weight: 500;
-        font-size: 14px;
-        line-height: 1.14;
-        text-decoration: none;
-        color: var(--primary-text-color)
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
+    color: var(--primary-text-color)
 }
     
 .contact-nav .link {
@@ -182,17 +182,16 @@ body {
     line-height: 1.14;}
 
 .contact-nav .link:hover,
-.contact-nav .link :focus {
+.contact-nav .link:focus {
     color: var(--accent-color);
 }
 
-.contact-list .link:hover {
+/* .contact-list .link:hover {
     color: var(--accent-color);
-    fill: red;
-    
-}
+} */
 
 .icon-mail {
+    padding: 0px;
     width: 16px;
     height: 12px;
     fill: #757575;
@@ -202,20 +201,17 @@ body {
     align-self: center;
 }
 
+/* .contact-list-icon .icon-mail:hover,
+.contact-list-icon .icon-mail:focus {
+    color: var(--accent-color)
+} */
+
 .mail-ref {
     text-decoration: none;
     color: var(--primary-text-color) ;
-}
-/*
-.mail-ref .link:hover 
-        .icon-mail:hover{
-    color: var(--accent-color);
-    fill: var(--accent-color);
-}*/
-.mail-ref:hover {
-    color: var(--accent-color);
-    fill: var(--accent-color);
-}
+    }
+
+
 .icon-smartphone {
     width: 10px;
     height: 16px;
@@ -407,7 +403,6 @@ box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
     color: var(--icon-color);
     fill: currentColor;
 }
-
 
 .social-list {
     display: flex;
